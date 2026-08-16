@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vishv Book Publication | Handwriting Work</title>
+  <meta name="description" content="Learn about handwriting work opportunities and registration details. Connect with Vishv Book Publication on Telegram.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f8fb;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .topbar {
+      background: #111827;
+      color: #fff;
+      text-align: center;
+      padding: 10px 15px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .nav {
+      min-height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      color: #111827;
+    }
+
+    .logo span {
+      color: #229ed9;
+    }
+
+    .nav-btn {
+      background: #229ed9;
+      color: #fff;
+      padding: 10px 17px;
+      border-radius: 9px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #eaf7ff, #ffffff);
+      padding: 70px 0;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 7px 15px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      max-width: 850px;
+      margin: auto;
+      font-size: 46px;
+      line-height: 1.12;
+      color: #111827;
+    }
+
+    .hero h1 span {
+      color: #168dcc;
+    }
+
+    .hero-text {
+      max-width: 700px;
+      margin: 20px auto 0;
+      color: #4b5563;
+      font-size: 18px;
+    }
+
+    .main-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      background: #229ed9;
+      color: #fff;
+      padding: 16px 28px;
+      border-radius: 10px;
+      margin-top: 28px;
+      font-size: 17px;
+      font-weight: 800;
+      box-shadow: 0 10px 25px rgba(34,158,217,.25);
+      transition: .2s;
+    }
+
+    .main-btn:hover {
+      background: #168dcc;
+      transform: translateY(-2px);
+    }
+
+    .hero-note {
+      margin-top: 12px;
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    .trust {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+    }
+
+    .trust-item {
+      padding: 22px 10px;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .trust-item:last-child {
+      border-right: none;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: #111827;
+      font-size: 15px;
+    }
+
+    .trust-item small {
+      color: #6b7280;
+      font-size: 12px;
+    }
+
+    .section {
+      padding: 65px 0;
+    }
+
+    .section.light {
+      background: #eef7fc;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 38px;
+    }
+
+    .section-heading h2 {
+      font-size: 32px;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .section-heading p {
+      color: #6b7280;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px 24px;
+      border-radius: 15px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 7px 25px rgba(0,0,0,.04);
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eaf7ff;
+      border-radius: 12px;
+      font-size: 24px;
+      margin-bottom: 17px;
+    }
+
+    .card h3 {
+      font-size: 19px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .steps {
+      max-width: 780px;
+      margin: auto;
+    }
+
+    .step {
+      display: flex;
+      gap: 18px;
+      background: #fff;
+      padding: 22px;
+      margin-bottom: 15px;
+      border-radius: 13px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .step-number {
+      flex: 0 0 43px;
+      width: 43px;
+      height: 43px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #229ed9;
+      color: #fff;
+      font-weight: 800;
+    }
+
+    .step h3 {
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+
+    .step p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .info-box {
+      max-width: 850px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #dbeafe;
+      border-left: 5px solid #229ed9;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .info-box h3 {
+      margin-bottom: 8px;
+    }
+
+    .info-box p {
+      color: #4b5563;
+      font-size: 14px;
+    }
+
+    .faq {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    details {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 11px;
+      margin-bottom: 12px;
+      padding: 17px 20px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    details p {
+      color: #6b7280;
+      font-size: 14px;
+      padding-top: 12px;
+    }
+
+    .cta {
+      background: #111827;
+      color: #fff;
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .cta h2 {
+      font-size: 33px;
+      margin-bottom: 10px;
+    }
+
+    .cta p {
+      max-width: 650px;
+      margin: auto;
+      color: #d1d5db;
+    }
+
+    footer {
+      background: #0b1120;
+      color: #9ca3af;
+      padding: 28px 15px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .footer-links {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #d1d5db;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 750px) {
+
+      .hero {
+        padding: 48px 0;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero-text {
+        font-size: 16px;
+      }
+
+      .main-btn {
+        width: 92%;
+        max-width: 370px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .trust-item:last-child {
+        border-bottom: none;
+      }
+
+      .section {
+        padding: 48px 0;
+      }
+
+      .section-heading h2 {
+        font-size: 27px;
+      }
+
+      .cta h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    ✍️ Handwriting Work Opportunity • Registration Open
+  </div>
+
+  <header>
+    <div class="container nav">
+
+      <div class="logo">
+        Vishv Book <span>Publication</span>
+      </div>
+
+      <a
+        class="nav-btn"
+        href="https://t.me/+1U2Udjw0lrI4MjA1"
+        target="_blank"
+        rel="noopener noreferrer">
+        Telegram
+      </a>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+
+      <div class="badge">
+        ✍️ HANDWRITING WORK FROM HOME
+      </div>
+
+      <h1>
+        Start Your <span>Handwriting Work</span> Journey
+      </h1>
+
+      <p class="hero-text">
+        Interested in handwriting-based work from home?
+        Connect with Vishv Book Publication on Telegram to
+        learn about the current work process and requirements.
+      </p>
+
+      <a
+        class="main-btn"
+        href="https://t.me/+1U2Udjw0lrI4MjA1"
+        target="_blank"
+        rel="noopener noreferrer">
+        ✈️ Get Complete Details
+      </a>
+
+      <div class="hero-note">
+        Please review all requirements and terms before proceeding.
+      </div>
+
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="container trust-grid">
+
+      <div class="trust-item">
+        <strong>📱 Telegram Support</strong>
+        <small>Registration information</small>
+      </div>
+
+      <div class="trust-item">
+        <strong>🏠 Work From Home</strong>
+        <small>Home-based opportunity</small>
+      </div>
+
+      <div class="trust-item">
+        <strong>📋 Clear Details</strong>
+        <small>Review before proceeding</small>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Work Overview</h2>
+        <p>Understand the opportunity before registering.</p>
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="card-icon">✍️</div>
+          <h3>Handwriting Tasks</h3>
+          <p>
+            Handwritten assignments may include completing pages
+            according to the instructions provided for the project.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🏠</div>
+          <h3>Work From Home</h3>
+          <p>
+            Depending on the available project, work may be completed
+            from your preferred location.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3>Telegram Registration</h3>
+          <p>
+            Connect with the Vishv Book Publication Telegram channel
+            to request the latest information.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section light">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>How It Works</h2>
+        <p>Simple registration process.</p>
+      </div>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div>
+            <h3>Join Telegram</h3>
+            <p>
+              Click the button and open the Vishv Book Publication
+              Telegram channel.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div>
+            <h3>Read the Information</h3>
+            <p>
+              Review the available work, requirements, process and
+              applicable terms carefully.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div>
+            <h3>Decide After Verification</h3>
+            <p>
+              Proceed only after you understand the complete terms
+              and conditions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Important Information</h2>
+      </div>
+
+      <div class="info-box">
+
+        <h3>⚠️ Please Verify Before Proceeding</h3>
+
+        <p>
+          Work availability, requirements, timelines, payments and
+          other conditions may vary by project. Please obtain complete
+          information before starting work or making any payment.
+          Never share passwords, OTPs, banking PINs or other sensitive
+          security information.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section light">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq">
+
+        <details>
+          <summary>How can I get the work details?</summary>
+          <p>
+            Join the Telegram channel using the button on this page
+            and review the available registration information.
+          </p>
+        </details>
+
+        <details>
+          <summary>Is this work from home?</summary>
+          <p>
+            The available work and requirements can vary by project.
+            Please confirm the current details on Telegram.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I contact Vishv Book Publication?</summary>
+          <p>
+            Use the Telegram button on this page to access the
+            Vishv Book Publication Telegram channel.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="cta">
+
+    <div class="container">
+
+      <h2>Ready to Get the Details?</h2>
+
+      <p>
+        Join our Telegram channel to learn more about the available
+        handwriting work and registration information.
+      </p>
+
+      <a
+        class="main-btn"
+        href="https://t.me/+1U2Udjw0lrI4MjA1"
+        target="_blank"
+        rel="noopener noreferrer">
+        ✈️ Join Telegram
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+    </div>
+
+    <p>
+      © 2026 Vishv Book Publication. All rights reserved.
+    </p>
+
+  </footer>
+
+</body>
+  </html>
